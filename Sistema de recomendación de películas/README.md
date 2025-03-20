@@ -32,13 +32,13 @@ pip install -r requirements.txt
 
 4️⃣ Abre el notebook en Google Colab o Jupyter Notebook y ejecútalo
 
-📊 Visualización de Resultados
+##📊 Visualización de Resultados
 A lo largo de la libreta, se generan gráficos y tablas que muestran:
 ✅ La matriz TF-IDF de similitud de películas.
 ✅ La tabla de recomendaciones generadas para un usuario específico.
 ✅ La evaluación del sistema con métricas como RMSE.
 
-✨ Uso
+##✨ Uso
 Puedes ejecutar la función de recomendación en el notebook de la siguiente manera:
 # Obtener recomendaciones basadas en contenido
 recomendaciones = content_based_recommendations("The Matrix", cosine_sim_df, num_recommendations=5)
@@ -47,11 +47,11 @@ print(recomendaciones)
 recomendaciones_usuario = collaborative_recommendations(1, user_movie_matrix, matrix_svd, num_recommendations=5)
 print(recomendaciones_usuario)
 
-🎯 Contribuciones
+##🎯 Contribuciones
 Si deseas mejorar este proyecto, ¡siéntete libre de contribuir! Puedes abrir un issue o enviar un pull request con mejoras.
 
-📝 Licencia
+##📝 Licencia
 Este proyecto se distribuye bajo la Licencia MIT.
 
-📌 Desarrollado por Alejandro Erick Cano Rosas
+##📌 Desarrollado por Alejandro Erick Cano Rosas
 📅 Fecha: Marzo 2025
