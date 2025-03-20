@@ -22,7 +22,6 @@ Los datos utilizados provienen del conjunto de datos [MovieLens](https://grouple
 ## 🚀 Instalación  
 
 1️⃣ **Clona este repositorio**  
-```bash
 git clone https://github.com/erickcr99/Proyectos_IA.git
 
 2️⃣ Navega hasta la carpeta del proyecto
